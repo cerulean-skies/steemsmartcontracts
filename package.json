@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node --max-old-space-size=8192 app.js",
+    "start": "sed -i 's/condenser_api/database_api/g' ./node_modules/dsteem/lib/helpers/database.js && node --max-old-space-size=8192 app.js",
     "lint": "eslint .gitignore .",
     "test": "./node_modules/mocha/bin/mocha  --recursive"
   },

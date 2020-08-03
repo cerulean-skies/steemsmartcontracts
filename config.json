@@ -5,14 +5,13 @@
     "databaseURL": "mongodb://localhost:27017",
     "databaseName": "ssc",
     "blocksLogFilePath": "./blocks.log",
+    "autosaveInterval": 1800000,
     "javascriptVMTimeout": 10000,
     "streamNodes": [
-        "https://api.steemit.com",
-        "https://anyx.io"
+        "https://wlsdev.whaleshares.info/rpc/"
     ],
-    "steemAddressPrefix": "STM",
-    "steemChainId": "0000000000000000000000000000000000000000000000000000000000000000",
-    "startSteemBlock": 29862600,
-    "genesisSteemBlock": 29862600,
-    "witnessEnabled": false
+    "steemAddressPrefix": "WLS",
+    "steemChainId": "de999ada2ff7ed3d3d580381f229b40b5a0261aec48eb830e540080817b72866",
+    "startSteemBlock": 20419929,
+    "genesisSteemBlock": 20417727
 }
